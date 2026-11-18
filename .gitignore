@@ -1,0 +1,28 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+plan.txt
+plan.md
+
+# Secrets et clés : JAMAIS dans le repo
+*.pem
+*.key
+*.pfx
+id_*
+!*.pub
+.env
+*.env
+*.auto.tfvars
+secrets/
+
+# Divers
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
